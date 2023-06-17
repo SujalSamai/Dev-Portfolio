@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
         <Link href="#" className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Read More <span className='animate-pulse'><BsArrowUpRight/></span></Link>
       </div>
       <div className='w-1/2 h-[400px]'>
-        <Image src={props.img} width={500} height={500} className="w-full h-full grayscale-50 hover:grayscale-0 hover:scale-105 transition-all duration-300 ease-out"/>
+        <Image src={props.img} width={500} height={500} className="w-full h-full grayscale-50 hover:grayscale-0 hover:scale-105 transition-all duration-300 ease-out" alt='project-img'/>
       </div>
     </div>
   )

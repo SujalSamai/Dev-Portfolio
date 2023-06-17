@@ -10,14 +10,14 @@ const About = () => {
     <section>
       <div className='flex justify-between'>
         <div className='w-5/12 tracking-wider'>
-          <h1 className={`text-5xl font-semibold ${dmSans.className} py-16`}>Hi I'm Sujal Samai, frontend dev & content writer. </h1>
-          <p className='text-slate-300 text-justify'>I'm a Frontend Web Developer who likes to design beautiful websites primarily using Next/React.js and Tailwind CSS.
-          Currently, I'm focussing on improving my Frontend logics and also in the process to learn Backend Technologies.<br/><br/>
-          I'm constantly trying to challenge myself with new things and wishing to network with amazing developers all around the internet and learn from them.
+          <h1 className={`text-5xl font-semibold ${dmSans.className} py-16`}>Hi I&apos;m Sujal Samai, frontend dev & content writer. </h1>
+          <p className='text-slate-300 text-justify'>I&apos;m a Frontend Web Developer who likes to design beautiful websites primarily using Next/React.js and Tailwind CSS.
+          Currently, I&apos;m focussing on improving my Frontend logics and also in the process to learn Backend Technologies.<br/><br/>
+          I&apos;m constantly trying to challenge myself with new things and wishing to network with amazing developers all around the internet and learn from them.
           </p>
         </div>
         <div className='w-5/12 p-10'>
-          <Image src={myImg} width={500} height={600} className='grayscale-50'/>
+          <Image src={myImg} width={500} height={600} className='grayscale-50' alt='Sujal Samai'/>
         </div>
       </div>
       <div className='bg-teal-800 p-5 tracking-wider flex flex-col gap-4 my-20'>
@@ -26,7 +26,7 @@ const About = () => {
       </div>
       <hr/>
       <div className='my-20 flex justify-between items-center text-3xl'>
-        <h2 className='w-4/12 flex items-end'>I'm thrilled to answer to your next project.<BsArrowRight className='h-10 w-10'/></h2>
+        <h2 className='w-4/12 flex items-end'>I&apos;m thrilled to answer to your next project.<BsArrowRight className='h-10 w-10'/></h2>
         <div className='w-4/12'>
           <a href="mailto:sujalsamai.work@gmail.com" className='hover:text-teal-400 transition-colors duration-200 ease-in'>sujalsamai.work@gmail.com</a>
         </div>

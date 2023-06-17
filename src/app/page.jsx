@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <main className="flex leading-relaxed tracking-wider mt-10">
         <div className="w-4/12">
-          <h1 className={`text-6xl font-semibold ${dmSans.className} py-16`}>Hello, I'm Sujal Samai.</h1>
+          <h1 className={`text-6xl font-semibold ${dmSans.className} py-16`}>Hello, I&apos;m Sujal Samai.</h1>
         </div>
         <div className="w-6/12 flex flex-col justify-end items-start mx-auto text-gray-300 text-xl">
           <p className=" ">A final-year web developer student working on creating beautiful layouts and content for the web</p>
