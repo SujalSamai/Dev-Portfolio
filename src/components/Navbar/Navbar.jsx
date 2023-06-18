@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <>
       <nav className={`flex justify-between items-center ${outfit.className} my-14`}>
-        <Link href="/" className='text-3xl lg:text-4xl'>sujal.</Link>
+        <Link href="/" className='text-3xl lg:text-4xl hover:scale-105 transition-all duration-200 ease-in'>sujal.</Link>
         <div className="hidden lg:flex gap-10">
             {links.map((link)=>{
               return <Link key={link.id} href={link.url} className='border-b-2 border-transparent hover:text-teal-300 hover:border-b-2 hover:border-teal-300 transition-colors duration-300 ease-out'>{link.title}</Link>

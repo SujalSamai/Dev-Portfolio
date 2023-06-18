@@ -1,5 +1,6 @@
 import Projects from '@/components/Projects/Projects'
 import React from 'react'
+import Link from 'next/link'
 import gitshow from "../../../public/gitshow.jpg"
 import chatbot from "../../../public/chatbot.jpg"
 import vogueco from "../../../public/vogueco.jpg"
@@ -8,6 +9,7 @@ import sorting from "../../../public/sorting.jpg"
 import Articles from '@/components/Articles/Articles'
 import { dmSans } from '@/utils/Fonts'
 import { HiArrowDown } from 'react-icons/hi'
+import { BsArrowUpRight } from 'react-icons/bs'
 
 const projects = [
   {
@@ -69,6 +71,10 @@ const Work = () => {
       </div>
       <Projects projects={projects}/>
       <Articles/>
+      <div className='my-28 flex flex-col justify-center items-center text-center lg:text-left gap-4'>
+        <h3 className='text-2xl'>Do you like my work?</h3>
+        <Link href="/journey" className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>See my journey <span className='animate-pulse'><BsArrowUpRight/></span></Link>
+      </div>
     </section>
   )
 }

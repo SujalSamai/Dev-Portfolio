@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { dmSans } from '@/utils/Fonts'
 import {BsArrowUpRight, BsArrowRight} from "react-icons/bs"
 import Stack from '@/components/Stack/Stack'
+import Link from 'next/link'
 
 
 const About = () => {
@@ -23,7 +24,7 @@ const About = () => {
       </div>
       <div className='bg-teal-800 p-5 tracking-wider flex flex-col gap-4 my-20'>
         I am currently open for internship & full-time engineering roles, which involves designing content & layouts for the web, frontend engineering as the core. Seeking for a great working culture consisting of senior engineers & aspiring young minds. Interested in working together? Feel free to schedule a meet!
-        <a href='https://docs.google.com/document/d/1YTc0XTcblUpHmbMwcIYSuzB5BzCkaCC7TV6jYmIURtg/edit?usp=sharing' className='w-fit flex items-center gap-1 bg-stone-950 py-2 px-5 rounded-lg hover:text-teal-400 transition-colors duration-300'>View Resume <span className='animate-pulse'><BsArrowUpRight/></span></a>
+        <a href='https://drive.google.com/file/d/191Zc80t4IcthH7qY3nq26_N-ZxoZQQR1/view?usp=sharing' className='w-fit flex items-center gap-1 bg-stone-950 py-2 px-5 rounded-lg hover:text-teal-400 transition-colors duration-300'>View Resume <span className='animate-pulse'><BsArrowUpRight/></span></a>
       </div>
       <Stack/>
       <hr/>
@@ -31,6 +32,7 @@ const About = () => {
         <h2 className='lg:w-4/12 flex items-end'>I&apos;m thrilled to answer to your next project.<BsArrowRight className='h-10 w-10 hidden lg:block'/></h2>
         <div className='lg:w-4/12'>
           <a href="mailto:sujalsamai.work@gmail.com" className='text-xl lg:text-3xl hover:text-teal-400 hover:border-b-2 transition-all duration-200 ease-in'>sujalsamai.work@gmail.com</a>
+          <Link href="/work" className='w-fit text-base mt-3 lg:mt-1 flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Check my work <span className='animate-pulse'><BsArrowUpRight/></span></Link>
         </div>
       </div>
     </section>

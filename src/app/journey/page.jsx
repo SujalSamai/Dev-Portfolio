@@ -1,6 +1,8 @@
 import React from 'react'
 import { dmSans } from '@/utils/Fonts'
 import JourneyTrack from './JourneyTrack'
+import {BsArrowUpRight} from "react-icons/bs"
+import Link from 'next/link'
 
 const journeys= [
   
@@ -80,6 +82,10 @@ const Journey = () => {
             return <JourneyTrack key={journey.id} name={journey.name} desc={journey.desc} date={journey.date}/>
           })
         }
+      </div>
+      <div className='my-28 flex flex-col justify-center items-center text-center lg:text-left gap-4'>
+        <h3 className='text-2xl'>Thanks for checking out.</h3>
+        <Link href="/contact" className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Get in Touch <span className='animate-pulse'><BsArrowUpRight/></span></Link>
       </div>
     </section>
   )
