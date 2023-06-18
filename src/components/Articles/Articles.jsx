@@ -22,7 +22,7 @@ const Articles = () => {
   return (
     <section className='my-32'>
       <h2 className='text-4xl'>articles.</h2>
-      <div className='flex flex-wrap gap-8 my-10'>
+      <div className='flex flex-col lg:flex-row flex-wrap gap-8 my-10'>
         {
           articles.map((article)=>{
             return <ArticleCard key={article.id} name={article.name} desc={article.desc} tech={article.tech} link={article.link}/>

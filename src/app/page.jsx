@@ -41,21 +41,21 @@ const projects = [
 export default function Home() {
   return (
     <>
-      <main className="flex leading-relaxed tracking-wider mt-10">
-        <div className="w-4/12">
-          <h1 className={`text-6xl font-semibold ${dmSans.className} py-16`}>Hello, I&apos;m Sujal Samai.</h1>
+      <main className="flex flex-col lg:flex-row leading-relaxed tracking-wider mt-10">
+        <div className="lg:w-4/12">
+          <h1 className={`text-5xl pr-2 lg:pr-0 lg:text-6xl font-semibold ${dmSans.className} py-16`}>Hello, I&apos;m Sujal Samai.</h1>
         </div>
-        <div className="w-6/12 flex flex-col justify-end items-start mx-auto text-gray-300 text-xl">
+        <div className="lg:w-6/12 flex flex-col justify-end items-start mx-auto text-gray-300 text-xl">
           <p className=" ">A final-year web developer student working on creating beautiful layouts and content for the web</p>
         </div>
       </main>
-      <div className="mt-20">
+      <div className="mt-28 lg:mt-20 flex justify-center lg:justify-start">
           <HiArrowDown className="w-16 h-16 motion-safe:animate-bounce"/>
       </div>
       <Services/>
       <Projects projects={projects}/>
       <Link href="/work" className='my-10 w-fit border-2 flex items-center gap-1 border-gray-400 hover:border-teal-300 p-2 rounded-lg hover:text-teal-300 transition-all duration-200 ease-in text-base'>View All Projects</Link>
-      <div className='my-28 flex flex-col justify-center items-center gap-4'>
+      <div className='my-28 flex flex-col justify-center items-center text-center lg:text-left gap-4'>
         <h3 className='text-2xl'>Wanna know more about me?</h3>
         <Link href="/about" className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Click Here <span className='animate-pulse'><BsArrowUpRight/></span></Link>
       </div>
