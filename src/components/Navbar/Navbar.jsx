@@ -40,8 +40,8 @@ const Navbar = () => {
     setOpen(false)
   }
   return (
-    <>
-      <nav className={`flex justify-between items-center ${outfit.className} my-14`}>
+    <nav className={`w-full fixed right-0 mx-auto z-[100] backdrop-blur-md`}>
+      <div className={`flex justify-between items-center w-10/12 lg:w-9/12 mx-auto py-8 lg:py-10 ${outfit.className}`}>
         <Link href="/" className='text-3xl lg:text-4xl hover:scale-105 transition-all duration-200 ease-in'>sujal.</Link>
         <div className="hidden lg:flex gap-10">
             {links.map((link)=>{
@@ -53,19 +53,19 @@ const Navbar = () => {
             open ? <RxCross1 className='h-7 w-7 z-50 relative' onClick={handleMenu}/>: <RiMenu3Line className='h-7 w-7 z-50 relative' onClick={handleMenu}/>
           }
         </div>
-      </nav>
+      </div>
       {
         open && (
-          <div className="bg-teal-600/60 backdrop-blur-lg py-44 w-full text-center text-xl h-screen absolute right-0 z-20 flex flex-col gap-10">
+          <div className="bg-teal-600 fixed right-0 max-h-screen backdrop-blur-lg py-44 w-full text-center text-xl h-screen z-20 flex flex-col gap-8">
             {links.map((link)=>{
-              return <Link key={link.id} href={link.url} onClick={closeMenu} className=' py-3 w-10/12 mx-auto'>{link.title}</Link>
+              return <Link key={link.id} href={link.url} onClick={closeMenu} className=' py-1 w-10/12 mx-auto'>{link.title}</Link>
             })}
-            <hr className='mt-20 w-8/12 mx-auto'/>
+            <hr className='mt-16 w-8/12 mx-auto'/>
             <Link href="/" className='text-3xl lg:text-4xl'>sujal.</Link>
           </div>
         )
       }
-    </>
+    </nav>
   )
 }
 

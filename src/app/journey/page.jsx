@@ -72,7 +72,7 @@ const journeys= [
 const Journey = () => {
   return (
     <section className='mb-10'>
-      <div className='lg:w-7/12 mb-32 mt-20'>
+      <div className='lg:w-7/12 mb-32 mt-40'>
         <h1 className={`text-5xl lg:text-7xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
         <h6 className='text-xl lg:text-3xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
       </div>

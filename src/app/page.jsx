@@ -41,7 +41,7 @@ const projects = [
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col lg:flex-row leading-relaxed tracking-wider mt-10">
+      <main className="flex flex-col lg:flex-row leading-relaxed tracking-wider mt-40">
         <div className="lg:w-4/12">
           <h1 className={`text-5xl pr-2 lg:pr-0 lg:text-6xl font-semibold ${dmSans.className} py-16`}>Hello, I&apos;m Sujal Samai.</h1>
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
           <p className=" ">A final-year web developer student working on creating beautiful layouts and content for the web</p>
         </div>
       </main>
-      <div className="mt-28 lg:mt-20 flex justify-center lg:justify-start">
+      <div className="mt-28 lg:mt-20 flex justify-end lg:justify-start">
           <HiArrowDown className="w-16 h-16 motion-safe:animate-bounce"/>
       </div>
       <Services/>

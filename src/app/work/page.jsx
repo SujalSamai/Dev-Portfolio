@@ -62,9 +62,9 @@ const projects = [
 const Work = () => {
   return (
     <section>
-      <div className='lg:w-7/12 mb-32 mt-20'>
+      <div className='lg:w-7/12 mb-32 mt-40'>
         <h1 className={`text-5xl lg:text-7xl font-semibold ${dmSans.className} py-6`}>Some of my works.</h1>
-        <h6 className='text-3xl lg:text-4xl'>Have a look at some of the projects that I&apos;ve worked upon in last few years.</h6>
+        <h6 className='text-xl lg:text-3xl'>Have a look at some of the projects that I&apos;ve worked upon in last few years.</h6>
       </div>
         <div className="mt-20 mb-5 flex justify-end">
           <HiArrowDown className="w-16 h-16 motion-safe:animate-bounce"/>

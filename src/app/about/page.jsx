@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 const About = () => {
   return (
-    <section>
+    <section className='mt-28'>
       <div className='flex flex-col lg:flex-row justify-between'>
         <div className='lg:w-5/12 tracking-wider'>
           <h1 className={`text-5xl font-semibold ${dmSans.className} py-16`}>Hi I&apos;m Sujal Samai, web developer & content writer. </h1>
