@@ -14,7 +14,10 @@ const ProjectCard = (props) => {
           <h6 className='text-justify mt-5'>{props.desc}</h6>
           <p className='text-gray-400 text-sm my-4'>{props.tech}</p>
         </div>
-        <Link href="#" className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Read More <span className='animate-pulse'><BsArrowUpRight/></span></Link>
+        <div className="flex gap-5">
+          <Link href={props.live} className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Live Demo <span className='animate-pulse'><BsArrowUpRight/></span></Link>
+          <Link href={props.github} className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>GitHub Link <span className='animate-pulse'><BsArrowUpRight/></span></Link>
+        </div>
       </div>
       <div className='w-1/2 h-[400px]'>
         <Image src={props.img} width={500} height={500} className="w-full h-full grayscale-50 hover:grayscale-0 hover:scale-105 transition-all duration-300 ease-out" alt='project-img'/>

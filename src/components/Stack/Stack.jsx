@@ -15,10 +15,6 @@ const Stack = () => {
         <StackCard name="Platforms" tech={["GitHub","Firebase", "Appwrite", "Netlify", "Vercel"]}/>
         <StackCard name="Databases" tech={["MySQL", "Firestore"]}/>
       </div>
-      <div className='mt-20 flex flex-col justify-center items-center gap-4'>
-        <h3 className='text-2xl'>Wanna know more about me?</h3>
-        <Link href="/about" className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Click Here <span className='animate-pulse'><BsArrowUpRight/></span></Link>
-      </div>
     </section>
   )
 }
