@@ -19,8 +19,8 @@ const links= [
     },
     {
         id:3,
-        title:"Experience",
-        url:"/experience",
+        title:"Journey",
+        url:"/journey",
     },
     {
         id:4,
@@ -56,10 +56,12 @@ const Navbar = () => {
       </nav>
       {
         open && (
-          <div className="bg-teal-400/80 backdrop-blur-lg py-44 w-11/12 text-center text-xl h-screen absolute z-20 flex flex-col gap-10">
+          <div className="bg-teal-600/60 backdrop-blur-lg py-44 w-full text-center text-xl h-screen absolute right-0 z-20 flex flex-col gap-10">
             {links.map((link)=>{
-              return <Link key={link.id} href={link.url} onClick={closeMenu}>{link.title}</Link>
+              return <Link key={link.id} href={link.url} onClick={closeMenu} className=' py-3 w-10/12 mx-auto'>{link.title}</Link>
             })}
+            <hr className='mt-20 w-8/12 mx-auto'/>
+            <Link href="/" className='text-3xl lg:text-4xl'>sujal.</Link>
           </div>
         )
       }
