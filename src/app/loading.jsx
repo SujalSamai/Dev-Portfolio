@@ -1,12 +1,12 @@
 import React from 'react'
 import {TbLoaderQuarter} from "react-icons/tb"
 
-const loading = () => {
+const Loading = () => {
   return (
-    <div className='flex justify-center items-center'>
-      <TbLoaderQuarter className='w-20 h-20 animate-spin'/>
+    <div className='flex w-full h-screen justify-center items-center z-[100]'>
+      <TbLoaderQuarter className='w-20 h-20 animate-spin '/>
     </div>
   )
 }
 
-export default loading
+export default Loading

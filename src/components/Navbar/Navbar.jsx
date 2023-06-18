@@ -61,7 +61,7 @@ const Navbar = () => {
               return <Link key={link.id} href={link.url} onClick={closeMenu} className=' py-1 w-10/12 mx-auto'>{link.title}</Link>
             })}
             <hr className='mt-16 w-8/12 mx-auto'/>
-            <Link href="/" className='text-3xl lg:text-4xl'>sujal.</Link>
+            <h3 className='text-xl mt-4'>Sujal Samai - 2023.</h3>
           </div>
         )
       }
