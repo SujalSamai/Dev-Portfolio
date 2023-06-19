@@ -1,13 +1,11 @@
 import Projects from '@/components/Projects/Projects'
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import gitshow from "../../../public/gitshow.jpg"
 import chatbot from "../../../public/chatbot.jpg"
 import vogueco from "../../../public/vogueco.jpg"
 import mario from "../../../public/mario.jpg"
 import sorting from "../../../public/sorting.jpg"
-import work from '../../../public/work.png'
 import Articles from '@/components/Articles/Articles'
 import { dmSans } from '@/utils/Fonts'
 import { HiArrowDown } from 'react-icons/hi'
@@ -64,8 +62,8 @@ const projects = [
 const Work = () => {
   return (
     <section>
-      <div className='lg:w-8/12 mb-32 mt-40'>
-        <h1 className={`text-5xl lg:text-7xl font-semibold ${dmSans.className} py-6 flex items-center gap-5`}>Some of my work.<Image src={work} width={100} height={100} className='w-20 h-20 hidden lg:block' alt='work'></Image></h1>
+      <div className='lg:w-7/12 mb-32 mt-40'>
+        <h1 className={`text-5xl lg:text-7xl font-semibold ${dmSans.className} py-6`}>Some of my works.</h1>
         <h6 className='text-xl lg:text-3xl'>Have a look at some of the projects that I&apos;ve worked upon in last few years.</h6>
       </div>
         <div className="mt-20 mb-5 flex justify-end">

@@ -19,7 +19,7 @@ const About = () => {
           </p>
         </div>
         <div className='lg:w-5/12 lg:p-10 mt-8 lg:mt-0'>
-          <Image src={myImg} width={500} height={600} className='grayscale-50' alt='Sujal Samai'/>
+          <Image src={myImg} width={500} height={600} className='grayscale-50 hover:scale-105 hover:grayscale-0 transition-all duration-300 ease-in' alt='Sujal Samai'/>
         </div>
       </div>
       <div className='bg-teal-800 p-5 tracking-wider flex flex-col gap-4 my-20'>

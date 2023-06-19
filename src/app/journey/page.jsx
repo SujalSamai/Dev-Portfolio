@@ -3,8 +3,6 @@ import { dmSans } from '@/utils/Fonts'
 import JourneyTrack from './JourneyTrack'
 import {BsArrowUpRight} from "react-icons/bs"
 import Link from 'next/link'
-import travel from "../../../public/journey.png"
-import Image from 'next/image'
 
 const journeys= [
   
@@ -75,7 +73,7 @@ const Journey = () => {
   return (
     <section className='mb-10'>
         <div className='lg:w-7/12 mb-32 mt-40'>
-          <h1 className={`text-5xl lg:text-7xl font-semibold ${dmSans.className} py-6 flex items-center gap-5`}>My Journey<Image src={travel} width={100} height={100} className='w-20 h-20 hidden lg:block' alt='path'></Image></h1>
+          <h1 className={`text-5xl lg:text-7xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
           <h6 className='text-xl lg:text-3xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
         </div>
       <div className=''>

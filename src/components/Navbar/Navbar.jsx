@@ -4,7 +4,8 @@ import React, { useState } from 'react'
 import { outfit } from '@/utils/Fonts'
 import {RiMenu3Line} from "react-icons/ri"
 import {RxCross1} from "react-icons/rx"
-
+import plant from "../../../public/favicon.png"
+import Image from 'next/image'
 
 const links= [
     {
@@ -42,7 +43,7 @@ const Navbar = () => {
   return (
     <nav className={`w-full fixed right-0 mx-auto z-[100] backdrop-blur-md`}>
       <div className={`flex justify-between items-center w-10/12 lg:w-9/12 mx-auto py-8 lg:py-10 ${outfit.className}`}>
-        <Link href="/" className='text-3xl lg:text-4xl hover:scale-105 transition-all duration-200 ease-in'>sujal.</Link>
+        <Link href="/" className='text-3xl lg:text-4xl hover:scale-105 transition-all duration-200 ease-in flex gap-2'>sujal.<Image src={plant} width={50} height={50} alt='seedling' className='w-10 h-10 p-1'/></Link>
         <div className="hidden lg:flex gap-10">
             {links.map((link)=>{
               return <Link key={link.id} href={link.url} className='border-b-2 border-transparent hover:text-teal-300 hover:border-b-2 hover:border-teal-300 transition-colors duration-300 ease-out'>{link.title}</Link>
