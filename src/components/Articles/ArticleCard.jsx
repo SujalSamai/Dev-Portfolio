@@ -5,7 +5,7 @@ import {RxExternalLink} from "react-icons/rx"
 
 const ArticleCard = (props) => {
   return (
-    <div className='lg:w-4/12 bg-teal-500/60 p-5 hover:scale-105 transition-all duration-200 ease-out'>
+    <div className='lg:w-[30%] bg-teal-500/60 p-5 hover:scale-105 transition-all duration-200 ease-out flex flex-col justify-between'>
       <div className='flex justify-between'>
         <FiFolder className='w-12 h-12 text-cyan-400'/>
         <Link href={props.link} ><RxExternalLink className='w-6 h-6 hover:text-cyan-400 hover:scale-110 transition-all duration-200 ease-out cursor-pointer'/></Link>
