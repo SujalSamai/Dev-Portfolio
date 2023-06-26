@@ -1,14 +1,15 @@
 import Projects from '@/components/Projects/Projects'
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import gitshow from "../../../public/gitshow.jpg"
 import chatbot from "../../../public/chatbot.jpg"
 import vogueco from "../../../public/vogueco.jpg"
 import mario from "../../../public/mario.jpg"
 import sorting from "../../../public/sorting.jpg"
+import work from "../../../public/work.jpg"
 import Articles from '@/components/Articles/Articles'
 import { dmSans } from '@/utils/Fonts'
-import { HiArrowDown } from 'react-icons/hi'
 import { BsArrowUpRight } from 'react-icons/bs'
 
 const projects = [
@@ -61,13 +62,15 @@ const projects = [
 
 const Work = () => {
   return (
-    <section>
-      <div className='lg:w-7/12 mb-32 mt-40'>
-        <h1 className={`text-5xl lg:text-7xl font-semibold ${dmSans.className} py-6`}>Some of my works.</h1>
-        <h6 className='text-xl lg:text-3xl'>Have a look at some of the projects that I&apos;ve worked upon in last few years.</h6>
-      </div>
-        <div className="mt-20 mb-5 flex justify-end">
-          <HiArrowDown className="w-16 h-16 motion-safe:animate-bounce"/>
+    <section className='mt-28'>
+      <div className='flex flex-col lg:flex-row justify-between'>
+        <div className='lg:w-6/12 mt-20 tracking-wider'>
+          <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>Some of my works.</h1>
+          <h6 className='text-xl'>Have a look at some of the projects that I&apos;ve worked upon in last few years.</h6>
+        </div>
+        <div className='lg:w-5/12 lg:py-20 mt-8 lg:mt-0 flex justify-end'>
+            <Image src={work} width={500} height={600} className='grayscale-50 hover:scale-105 hover:grayscale-0 transition-all duration-300 ease-in lg:w-10/12' alt='Sujal Samai'/>
+        </div>
       </div>
       <Projects projects={projects}/>
       <Articles/>

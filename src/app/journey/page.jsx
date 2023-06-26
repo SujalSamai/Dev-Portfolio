@@ -3,6 +3,8 @@ import { dmSans } from '@/utils/Fonts'
 import JourneyTrack from './JourneyTrack'
 import {BsArrowUpRight} from "react-icons/bs"
 import Link from 'next/link'
+import Image from 'next/image'
+import journey from "../../../public/journey.jpg"
 
 const journeys= [
   
@@ -71,11 +73,16 @@ const journeys= [
 
 const Journey = () => {
   return (
-    <section className='mb-10'>
-        <div className='lg:w-7/12 mb-32 mt-40'>
-          <h1 className={`text-5xl lg:text-7xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
-          <h6 className='text-xl lg:text-3xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
+    <section className='mt-28'>
+      <div className='flex flex-col lg:flex-row justify-between mb-20'>
+        <div className='lg:w-6/12 mt-20 tracking-wider'>
+          <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
+          <h6 className='text-xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
         </div>
+        <div className='lg:w-5/12 lg:py-20 mt-8 lg:mt-0 flex justify-end'>
+            <Image src={journey} width={500} height={600} className='grayscale-50 hover:scale-105 hover:grayscale-100 transition-all duration-300 ease-in lg:w-10/12' alt='Sujal Samai'/>
+        </div>
+      </div>
       <div className=''>
         {
           journeys.map((journey)=>{
