@@ -5,6 +5,9 @@ import {BsArrowUpRight} from "react-icons/bs"
 import Link from 'next/link'
 import Image from 'next/image'
 import journey from "../../../public/journey.jpg"
+import { FaCode, FaGoogle, FaTrophy, FaGithub } from 'react-icons/fa'
+import { SiCodechef } from 'react-icons/si'
+import { HiUserGroup } from 'react-icons/hi'
 
 const journeys= [
   
@@ -75,9 +78,19 @@ const Journey = () => {
   return (
     <section className='mt-28'>
       <div className='flex flex-col lg:flex-row justify-between mb-20'>
-        <div className='lg:w-6/12 mt-20 tracking-wider'>
-          <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
-          <h6 className='text-xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
+        <div className='lg:w-6/12 mt-20 lg:mt-0 tracking-wider flex flex-col justify-evenly'>
+          <div>
+            <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
+            <h6 className='text-xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
+          </div>
+          <span className='lg:flex gap-12 hidden hover:gap-16 transition-all duration-500 ease-out'>
+            <FaTrophy className='w-10 h-10'/>
+            <HiUserGroup className='w-10 h-10'/>
+            <FaGithub className='w-10 h-10'/>
+            <FaCode className='w-10 h-10'/>
+            <FaGoogle className='w-10 h-10'/>
+            <SiCodechef className='w-10 h-10'/>
+          </span>
         </div>
         <div className='lg:w-5/12 lg:py-20 mt-8 lg:mt-0 flex justify-end'>
             <Image src={journey} width={500} height={600} className='grayscale-50 hover:scale-105 hover:grayscale-100 transition-all duration-300 ease-in lg:w-10/12' alt='Sujal Samai'/>

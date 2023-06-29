@@ -36,7 +36,7 @@ const socials = [
     id:6,
     name:"Resume",
     url:"sujalsamai.co/resume",
-    link:"https://drive.google.com/file/d/191Zc80t4IcthH7qY3nq26_N-ZxoZQQR1/view?usp=sharing"
+    link:"https://indigo-ring-f16.notion.site/Sujal-Samai-b6d2c9e8d513441b9c0cc863d69d3705?pvs=4"
   }
 ]
 
