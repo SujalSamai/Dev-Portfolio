@@ -71,13 +71,13 @@ const Work = () => {
             <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>Some of my works.</h1>
             <h6 className='text-xl'>Have a look at some of the projects that I&apos;ve worked upon in last few years.</h6>
           </div>
-          <span className='lg:flex gap-12 hidden hover:gap-16 transition-all duration-500 ease-out'>
-            <FaReact className='w-10 h-10'/>
-            <FaJava className='w-10 h-10'/>
-            <SiNextdotjs className='w-10 h-10'/>
-            <SiTailwindcss className='w-10 h-10'/>
-            <SiFirebase className='w-10 h-10'/>
-            <SiMysql className='w-10 h-10'/>
+          <span className='lg:flex gap-12 hidden'>
+            <FaReact className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <FaJava className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <SiNextdotjs className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <SiTailwindcss className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <SiFirebase className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <SiMysql className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
           </span>
         </div>
         <div className='lg:w-5/12 lg:py-20 mt-8 lg:mt-0 flex justify-end'>

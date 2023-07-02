@@ -83,13 +83,13 @@ const Journey = () => {
             <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
             <h6 className='text-xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
           </div>
-          <span className='lg:flex gap-12 hidden hover:gap-16 transition-all duration-500 ease-out'>
-            <FaTrophy className='w-10 h-10'/>
-            <HiUserGroup className='w-10 h-10'/>
-            <FaGithub className='w-10 h-10'/>
-            <FaCode className='w-10 h-10'/>
-            <FaGoogle className='w-10 h-10'/>
-            <SiCodechef className='w-10 h-10'/>
+          <span className='lg:flex gap-12 hidden'>
+            <FaTrophy className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <HiUserGroup className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <FaGithub className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <FaCode className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <FaGoogle className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
+            <SiCodechef className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
           </span>
         </div>
         <div className='lg:w-5/12 lg:py-20 mt-8 lg:mt-0 flex justify-end'>
