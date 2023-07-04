@@ -66,7 +66,7 @@ const Work = () => {
   return (
     <section className='mt-28'>
       <div className='flex flex-col lg:flex-row justify-between'>
-        <div className='lg:w-6/12 mt-16 lg:mt-0 tracking-wider flex flex-col justify-evenly'>
+        <div className='lg:w-6/12 mt-16 tracking-wider flex flex-col gap-28 lg:my-28 justify-evenly'>
           <div>
             <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>Some of my works.</h1>
             <h6 className='text-xl'>Have a look at some of the projects that I&apos;ve worked upon in last few years.</h6>
@@ -80,9 +80,8 @@ const Work = () => {
             <SiMysql className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
           </span>
         </div>
-        <div className='lg:w-5/12 lg:py-20 mt-8 lg:mt-0 flex justify-end'>
-            <Image src={work} width={500} height={600} className='grayscale-50 hover:scale-105 hover:grayscale-0 transition-all duration-300 ease-in lg:w-10/12' alt='Sujal Samai'/>
-        </div>
+            <Image src={work} width={500} height={600} className='-z-10 absolute top-0 right-0 opacity-5 blur-sm lg:blur-0 lg:w-7/12 grayscale-50' alt='Sujal Samai'/>
+        
       </div>
       <Projects projects={projects}/>
       <Articles/>

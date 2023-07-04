@@ -10,7 +10,12 @@ import { SiCodechef } from 'react-icons/si'
 import { HiUserGroup } from 'react-icons/hi'
 
 const journeys= [
-  
+  {
+    id:11,
+    name:"Student Community Member of Generation Nothing, Nothing Tech. Ltd.",
+    desc:"Selected as a Member of Generation Nothing, the first ever student program organized by the much hyped tech enthusiast company, Nothing Technologies Ltd.",
+    date:"July, 2023 - Present"
+  },
   {
     id:10,
     name:"Full Stack Intern at Auring Technologies",
@@ -78,7 +83,7 @@ const Journey = () => {
   return (
     <section className='mt-28'>
       <div className='flex flex-col lg:flex-row justify-between mb-20'>
-        <div className='lg:w-6/12 mt-20 lg:mt-0 tracking-wider flex flex-col justify-evenly'>
+        <div className='lg:w-6/12 mt-20 tracking-wider flex flex-col gap-28 lg:my-24 justify-evenly'>
           <div>
             <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
             <h6 className='text-xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
@@ -92,9 +97,8 @@ const Journey = () => {
             <SiCodechef className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
           </span>
         </div>
-        <div className='lg:w-5/12 lg:py-20 mt-8 lg:mt-0 flex justify-end'>
-            <Image src={journey} width={500} height={600} className='grayscale-50 hover:scale-105 hover:grayscale-100 transition-all duration-300 ease-in lg:w-10/12' alt='Sujal Samai'/>
-        </div>
+            <Image src={journey} width={500} height={600} className='-z-10 absolute top-0 right-0 opacity-5 blur-sm lg:blur-0 lg:w-7/12 grayscale-50' alt='Sujal Samai'/>
+        
       </div>
       <div className=''>
         {
