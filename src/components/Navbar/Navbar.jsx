@@ -6,6 +6,7 @@ import {RiMenu3Line} from "react-icons/ri"
 import {RxCross1} from "react-icons/rx"
 import plant from "../../../public/favicon.png"
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const links= [
     {
@@ -30,6 +31,8 @@ const links= [
     },
 
 ]
+
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -57,13 +60,14 @@ const Navbar = () => {
       </div>
       {
         open && (
-          <div className="bg-teal-600 fixed right-0 max-h-screen backdrop-blur-lg py-44 w-full text-center text-xl h-screen z-20 flex flex-col gap-8">
+          <motion.div initial={{ y:-100, opacity: 0, scale: 0.5 }} animate={{ y: 0, opacity: 1, scale: 1  }}
+  transition={{ type: "spring", duration: 0.8 }} className="bg-slate-600 fixed left-9 rounded-3xl py-14 w-10/12 mx-auto text-center text-xl z-20 flex flex-col gap-2">
             {links.map((link)=>{
-              return <Link key={link.id} href={link.url} onClick={closeMenu} className=' py-1 w-10/12 mx-auto'>{link.title}</Link>
+              return <Link key={link.id} href={link.url} onClick={closeMenu} className='py-1 w-10/12 mx-auto'>{link.title}</Link>
             })}
-            <hr className='mt-16 w-8/12 mx-auto'/>
+            <hr className='mt-8 w-8/12 mx-auto'/>
             <h3 className='text-xl mt-4'>Sujal Samai - 2023.</h3>
-          </div>
+          </motion.div>
         )
       }
     </nav>

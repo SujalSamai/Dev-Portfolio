@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${dmSans.className} flex flex-col justify-between min-h-screen w-10/12 lg:w-9/12 mx-auto bg-gradient-to-b from-teal-900 to to-black text-white`}
+        className={`${dmSans.className} flex flex-col justify-between min-h-screen w-10/12 lg:w-9/12 mx-auto bg-gradient-to-b from-gray-900 to to-black text-white`}
       >
         <Navbar />
         {children}

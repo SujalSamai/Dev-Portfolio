@@ -80,7 +80,7 @@ const Work = () => {
             <SiMysql className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
           </span>
         </div>
-            <Image src={work} width={500} height={600} className='-z-10 absolute top-0 right-0 opacity-5 blur-sm lg:blur-0 lg:w-7/12 grayscale-50' alt='Sujal Samai'/>
+            <Image src={work} width={500} height={600} className='-z-10 hidden lg:block absolute top-0 right-0 opacity-5 blur-sm lg:blur-0 lg:w-7/12 grayscale-50' alt='Sujal Samai'/>
         
       </div>
       <Projects projects={projects}/>
