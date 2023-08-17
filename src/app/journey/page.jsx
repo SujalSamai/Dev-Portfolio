@@ -4,7 +4,7 @@ import JourneyTrack from './JourneyTrack'
 import {BsArrowUpRight} from "react-icons/bs"
 import Link from 'next/link'
 import Image from 'next/image'
-import journey from "../../../public/journey.png"
+import journey from "../../../public/journey.jpg"
 import { FaCode, FaGoogle, FaTrophy, FaGithub } from 'react-icons/fa'
 import { SiCodechef } from 'react-icons/si'
 import { HiUserGroup } from 'react-icons/hi'
