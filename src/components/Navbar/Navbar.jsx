@@ -60,13 +60,20 @@ const Navbar = () => {
       </div>
       {
         open && (
-          <motion.div initial={{ x:100, opacity: 0, scale: 0.5 }} animate={{ x: 0, opacity: 1, scale: 1  }}
-  transition={{ type: "spring", duration: 0.8 }} className="bg-slate-600 fixed left-0 h-screen rounded-3xl pt-72 w-full mx-auto text-center text-xl z-20 flex flex-col gap-2">
+          <motion.div initial={{ width: 0 }}
+            animate={{
+              width: "100%"
+            }}
+            exit={{
+              width: 0,
+              transition: { delay: 0.9, duration: 0.9 }
+            }} className="bg-slate-600 fixed top-0 right-0 h-screen pt-80 mx-auto text-center text-xl z-20 flex flex-col gap-2">
+              <Link href={"/"} onClick={closeMenu} className='py-1 w-10/12 mx-auto text-3xl'>home</Link>
             {links.map((link)=>{
-              return <Link key={link.id} href={link.url} onClick={closeMenu} className='py-1 w-10/12 mx-auto text-3xl'>{link.title}</Link>
+              return <motion.div initial={{y:-25 ,opacity:0}} animate={{y:0, opacity:100}} transition={{duration:0.5}}><Link key={link.id} href={link.url} onClick={closeMenu} className='py-1 w-10/12 mx-auto text-3xl'>{link.title}</Link></motion.div>
             })}
-            <hr className='mt-8 w-8/12 mx-auto'/>
-            <h3 className='text-xl mt-4'>Sujal Samai - 2023.</h3>
+            <hr className='mt-28 w-8/12 mx-auto'/>
+            <h3 className='text-normal mt-4'>Sujal Samai - 2023.</h3>
           </motion.div>
         )
       }
