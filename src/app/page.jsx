@@ -43,10 +43,10 @@ export default function Home() {
     <>
       <main className="flex flex-col lg:flex-row leading-relaxed tracking-wider mt-40">
         <div className="lg:w-4/12">
-          <h1 className={`text-5xl pr-2 lg:pr-0 lg:text-6xl font-semibold ${dmSans.className} py-16`}>Hello, I&apos;m Sujal Samai.</h1>
+          <h1 className={`reveal-custom text-5xl pr-2 lg:pr-0 lg:text-6xl font-semibold ${dmSans.className} py-16`}>Hello, I&apos;m Sujal Samai.</h1>
         </div>
         <div className="lg:w-6/12 flex flex-col justify-end items-start mx-auto text-gray-300 text-xl">
-          <p className=" ">A final-year web developer student working on creating beautiful layouts and content for the web</p>
+          <p className="reveal-custom-info">A final-year web developer student working on creating beautiful layouts and content for the web</p>
         </div>
       </main>
       <div className="mt-28 lg:mt-20 flex justify-end lg:justify-start">

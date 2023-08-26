@@ -12,8 +12,8 @@ const About = () => {
     <section className='mt-28'>
       <div className='flex flex-col lg:flex-row justify-between'>
         <div className='lg:w-5/12 tracking-wider'>
-          <h1 className={`text-5xl font-semibold ${dmSans.className} py-16`}>Hi I&apos;m Sujal Samai, web developer & content writer. </h1>
-          <p className='text-slate-300 text-justify'>I&apos;m a Web Developer who likes to design beautiful websites primarily using Next/React.js and Tailwind CSS.
+          <h1 className={`reveal-custom text-5xl font-semibold ${dmSans.className} py-16`}>Hi I&apos;m Sujal Samai, web developer & content writer. </h1>
+          <p className='reveal-custom-info text-slate-300 text-justify'>I&apos;m a Web Developer who likes to design beautiful websites primarily using Next/React.js and Tailwind CSS.
           Currently, I&apos;m focussing on improving my Frontend logics and also in the process to learn Backend Technologies.<br/><br/>
           I&apos;m constantly trying to challenge myself with new things and hoping to network with amazing developers all around the internet and learn from them.
           </p>

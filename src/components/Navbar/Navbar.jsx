@@ -49,7 +49,7 @@ const Navbar = () => {
         <Link href="/" className='text-3xl lg:text-4xl hover:scale-105 transition-all duration-200 ease-in flex gap-2'>sujal.<Image src={plant} width={50} height={50} alt='seedling' className='w-10 h-10 p-1'/></Link>
         <div className="hidden lg:flex gap-10">
             {links.map((link)=>{
-              return <Link key={link.id} href={link.url} className='border-b-2 border-transparent hover:text-teal-300 hover:border-b-2 hover:border-teal-300 transition-colors duration-300 ease-out'>{link.title}</Link>
+              return <Link key={link.id} href={link.url} className='reveal-custom-info border-b-2 border-transparent hover:text-teal-300 hover:border-b-2 hover:border-teal-300 transition-colors duration-300 ease-out'>{link.title}</Link>
             })}
         </div>
         <div className='lg:hidden'>

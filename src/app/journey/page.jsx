@@ -85,8 +85,8 @@ const Journey = () => {
       <div className='flex flex-col lg:flex-row justify-between mb-20'>
         <div className='lg:w-6/12 mt-20 tracking-wider flex flex-col gap-28 lg:my-24 justify-evenly'>
           <div>
-            <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
-            <h6 className='text-xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
+            <h1 className={`reveal-custom text-5xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
+            <h6 className='reveal-custom text-xl'>The journey which started 3 years back has been amazing with great learning experience. Here&apos;s a sneak peak.</h6>
           </div>
           <span className='lg:flex gap-12 hidden'>
             <FaTrophy className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>

@@ -68,8 +68,8 @@ const Work = () => {
       <div className='flex flex-col lg:flex-row justify-between'>
         <div className='lg:w-6/12 mt-16 tracking-wider flex flex-col gap-28 lg:my-28 justify-evenly'>
           <div>
-            <h1 className={`text-5xl font-semibold ${dmSans.className} py-6`}>Some of my works.</h1>
-            <h6 className='text-xl'>Have a look at some of the projects that I&apos;ve worked upon in last few years.</h6>
+            <h1 className={`reveal-custom text-5xl font-semibold ${dmSans.className} py-6`}>Some of my works.</h1>
+            <h6 className='reveal-custom-info text-xl'>Have a look at some of the projects that I&apos;ve worked upon in last few years.</h6>
           </div>
           <span className='lg:flex gap-12 hidden'>
             <FaReact className='w-10 h-10 hover:scale-150 hover:mx-5 transition-all duration-500 ease-out'/>
