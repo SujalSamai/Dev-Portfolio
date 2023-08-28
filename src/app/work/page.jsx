@@ -64,8 +64,8 @@ const projects = [
 
 const Work = () => {
   return (
-    <section className='mt-28'>
-      <div className='flex flex-col lg:flex-row justify-between'>
+    <section className='mt-36 lg:mt-28'>
+      <div className='flex flex-col lg:flex-row mb-72 lg:mb-0 justify-between'>
         <div className='lg:w-6/12 mt-16 tracking-wider flex flex-col gap-28 lg:my-28 justify-evenly'>
           <div>
             <h1 className={`reveal-custom text-5xl font-semibold ${dmSans.className} py-6`}>Some of my works.</h1>

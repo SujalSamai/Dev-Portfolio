@@ -49,7 +49,7 @@ const Socials = () => {
           return(
             <div key={social.id} className='flex lg:w-5/6 justify-between my-2'>
               <h4>{social.name}</h4>
-              <a href={social.link} className='flex items-center gap-1 text-sm text-slate-300 hover:border-b hover:text-teal-400 transition-all duration-200 ease-out'>{social.url}<span><BsArrowUpRight/></span></a>
+              <a href={social.link} target='_blank' className='flex items-center gap-1 text-sm text-slate-300 hover:border-b hover:text-teal-400 transition-all duration-200 ease-out'>{social.url}<span><BsArrowUpRight/></span></a>
             </div>
           )
         })

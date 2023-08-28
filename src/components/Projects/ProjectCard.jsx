@@ -15,16 +15,16 @@ const ProjectCard = (props) => {
           <p className='text-gray-400 text-sm my-4'>{props.tech}</p>
         </div>
         <div className="lg:flex gap-5 hidden">
-          <Link href={props.live} className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Live Demo <span className='animate-pulse'><BsArrowUpRight/></span></Link>
-          <Link href={props.github} className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>GitHub Link <span className='animate-pulse'><BsArrowUpRight/></span></Link>
+          <Link href={props.live} target='_blank' className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Live Demo <span className='animate-pulse'><BsArrowUpRight/></span></Link>
+          <Link href={props.github} target='_blank' className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>GitHub Link <span className='animate-pulse'><BsArrowUpRight/></span></Link>
         </div>
       </div>
       <div className='lg:w-1/2 lg:h-[400px]'>
         <Image src={props.img} width={500} height={500} className="w-full h-full grayscale-50 hover:grayscale-0 hover:scale-105 transition-all duration-300 ease-out" alt='project-img'/>
       </div>
       <div className="mt-6 flex gap-5 lg:hidden">
-          <Link href={props.live} className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Live Demo <span className='animate-pulse'><BsArrowUpRight/></span></Link>
-          <Link href={props.github} className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>GitHub Link <span className='animate-pulse'><BsArrowUpRight/></span></Link>
+          <Link href={props.live} target='_blank' className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>Live Demo <span className='animate-pulse'><BsArrowUpRight/></span></Link>
+          <Link href={props.github} target='_blank' className='w-fit flex items-center gap-1 border-b-2 hover:text-teal-400 transition-colors duration-300'>GitHub Link <span className='animate-pulse'><BsArrowUpRight/></span></Link>
         </div>
     </div>
   )

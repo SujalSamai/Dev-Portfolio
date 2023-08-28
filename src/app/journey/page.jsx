@@ -81,8 +81,8 @@ const journeys= [
 
 const Journey = () => {
   return (
-    <section className='mt-28'>
-      <div className='flex flex-col lg:flex-row justify-between mb-20'>
+    <section className='mt-36 lg:mt-28'>
+      <div className='flex flex-col lg:flex-row justify-between mb-72'>
         <div className='lg:w-6/12 mt-20 tracking-wider flex flex-col gap-28 lg:my-24 justify-evenly'>
           <div>
             <h1 className={`reveal-custom text-5xl font-semibold ${dmSans.className} py-6`}>My Journey</h1>
