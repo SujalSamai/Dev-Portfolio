@@ -24,7 +24,7 @@ const About = () => {
       </div>
       <div className='bg-teal-800 p-5 tracking-wider flex flex-col gap-4 my-20'>
         I am currently open for internship & full-time engineering roles, which involves designing content & layouts for the web, frontend engineering as the core. Seeking for a great working culture consisting of senior engineers & aspiring young minds. Interested in working together? Feel free to schedule a meet!
-        <a href='https://indigo-ring-f16.notion.site/Sujal-Samai-b6d2c9e8d513441b9c0cc863d69d3705?pvs=4' target='_blank' className='w-fit flex items-center gap-1 bg-stone-950 py-2 px-5 rounded-lg hover:text-teal-400 transition-colors duration-300'>View Resume <span className='animate-pulse'><BsArrowUpRight/></span></a>
+        <Link href={"/resume"} className='w-fit flex items-center gap-1 bg-stone-950 py-2 px-5 rounded-lg hover:text-teal-400 transition-colors duration-300'>View Resume <span className='animate-pulse'><BsArrowUpRight/></span></Link>
       </div>
       <Stack/>
       <hr/>
