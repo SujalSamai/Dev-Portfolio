@@ -3,6 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import gitshow from "../../../public/gitshow.jpg"
+import cart from "../../../public/cart.jpg"
 import chatbot from "../../../public/chatbot.jpg"
 import vogueco from "../../../public/vogueco.jpg"
 import mario from "../../../public/mario.jpg"
@@ -17,6 +18,15 @@ import {SiMysql, SiFirebase, SiTailwindcss, SiNextdotjs} from "react-icons/si"
 const projects = [
   {
     id:1,
+    name: "GreenKart",
+    desc: "One-stop destination for sustainable and environmentally conscious shopping! In a world where our choices have a profound impact on the planet, we believe that e-commerce can be a force for good. Through Greenkart, we aim to provide you with a unique online shopping experience that not only caters to your needs but also champions the well-being of our planet.",
+    tech:"UI created using Next.js, React Toastify & Tailwind CSS. Makes use of Firebase & MongoDB at the backend with extensive use of Next.js API capabilities. Also uses Stripe Payment gateway for payment integration.",
+    img:cart,
+    github:"https://github.com/SujalSamai/Greenkart",
+    live:"https://github.com/SujalSamai/Greenkart",
+  },
+  {
+    id:2,
     name: "GitShow",
     desc: "A Social-Media platform based on Github, whose main focus is to give you a platform your Github projects in a beautiful way, so that you can focus on the project and we can focus on taking it to the masses.",
     tech:"UI created using React.js & Tailwind CSS. Makes use of Firebase Authentication & Firestore at the backend with extensive use of GitHub API.",
@@ -25,7 +35,7 @@ const projects = [
     live:"https://gitshowbysmg.vercel.app",
   },
   {
-    id:2,
+    id:3,
     name: "DocBot",
     desc: "An automotic query resolver, which can read your documents and give answers based on them. Supports various document formats like .docx, .pdf, .csv, .xslx etc.",
     tech: "Creates embeddings using OpenAI API & LangChain Framework in Python. Uses FAISS to do similarity search to get accurate results.",
@@ -34,7 +44,7 @@ const projects = [
     live:"https://docbot-chat.streamlit.app"
   },
   {
-    id:3,
+    id:4,
     name: "VoguEco",
     desc:"VogueEco focusses on the rising issue of increasing Carbon Footprint of the Fashion industry. The goal of this project is to encourage people to Donate their old clothes and Plant a Tree through our initiative.",
     tech: "UI created using React.js & Tailwind CSS. Makes use of Appwrite for Authentication and other backend work.",
@@ -43,7 +53,7 @@ const projects = [
     live:"https://www.vogueeco.us/",
   },
   {
-    id:4,
+    id:5,
     name: "Super Mario",
     desc:"This is replica of the original Super Mario game and works in your browser. The game consist of only a single level of the original Super Mario game, and can mimic all kinds of movements.",
     tech:"The Game uses JavaScript at its core with the use of HTML Canvas for rendering the sprites.",
@@ -52,7 +62,7 @@ const projects = [
     live:"https://sujalsamai.github.io/Super-Mario-Game/",
   },
   {
-    id:5,
+    id:6,
     name: "Sorting Visualizer",
     desc:"Sorting Visualizer is an interactive and visual way to understand various Sorting Algorithms that are present. We can choose the size of array & the speed at which results are shown.",
     tech:"It uses Javascript, HTML & CSS to do its working.",
