@@ -23,7 +23,7 @@ const projects = [
     tech:"UI created using Next.js, React Toastify & Tailwind CSS. Makes use of Firebase & MongoDB at the backend with extensive use of Next.js API capabilities. Also uses Stripe Payment gateway for payment integration.",
     img:cart,
     github:"https://github.com/SujalSamai/Greenkart",
-    live:"https://github.com/SujalSamai/Greenkart",
+    live:"https://greenkart.vercel.app",
   },
   {
     id:2,
