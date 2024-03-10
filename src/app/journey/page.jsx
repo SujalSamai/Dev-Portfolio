@@ -11,10 +11,16 @@ import { HiUserGroup } from 'react-icons/hi'
 
 const journeys= [
   {
+    id:12,
+    name:"Software Engineer Intern at Digivalet",
+    desc:"Working as a Software Engineer Intern at Digivalet where my core responsibility lies in creating scalable and bug free, production ready Backend Service and Drivers for Digivalet Controllers.",
+    date:"January, 2024 - Present"
+  },
+  {
     id:11,
     name:"Student Community Member of Generation Nothing, Nothing Tech. Ltd.",
     desc:"Selected as a Member of Generation Nothing, the first ever student program organized by the much hyped tech enthusiast company, Nothing Technologies Ltd.",
-    date:"July, 2023 - Present"
+    date:"July, 2023 - November, 2023"
   },
   {
     id:10,

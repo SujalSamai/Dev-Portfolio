@@ -10,7 +10,7 @@ const services = [
   {
     id:2,
     name:"Backend Development",
-    desc: "If you are just starting out as an organization & want to use BaaS platforms, then I can help you set them up in a fully functional way."
+    desc: "If you are just starting out as an organization & want to use BaaS platforms or a custom Backend Service, then I can help you set them up in a fully functional way."
   }, 
   {
     id:3,

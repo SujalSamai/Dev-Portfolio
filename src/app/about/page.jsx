@@ -12,7 +12,7 @@ const About = () => {
     <section className='mt-28'>
       <div className='flex flex-col lg:flex-row justify-between'>
         <div className='lg:w-5/12 tracking-wider'>
-          <h1 className={`reveal-custom text-5xl font-semibold ${dmSans.className} py-16`}>Hi I&apos;m Sujal Samai, web developer & content writer. </h1>
+          <h1 className={`reveal-custom text-5xl font-semibold ${dmSans.className} py-16`}>Hi I&apos;m Sujal Samai, web & backend developer. </h1>
           <p className='reveal-custom-info text-slate-300 text-justify'>I&apos;m a Web Developer who likes to design beautiful websites primarily using Next/React.js and Tailwind CSS.
           Currently, I&apos;m focussing on improving my Frontend logics and also in the process to learn Backend Technologies.<br/><br/>
           I&apos;m constantly trying to challenge myself with new things and hoping to network with amazing developers all around the internet and learn from them.
@@ -23,7 +23,7 @@ const About = () => {
         </div>
       </div>
       <div className='bg-teal-800 p-5 tracking-wider flex flex-col gap-4 my-20'>
-        I am currently open for internship & full-time engineering roles, which involves designing content & layouts for the web, frontend engineering as the core. Seeking for a great working culture consisting of senior engineers & aspiring young minds. Interested in working together? Feel free to schedule a meet!
+        I am open to discuss for internship & full-time engineering roles, which involves designing content & layouts for the web, frontend engineering as the core. Or if available, eager to work on Backend with SpringBoot at the core. Seeking for a great working culture consisting of senior engineers & aspiring young minds. Interested in working together? Feel free to schedule a meet!
         <Link href={"/resume"} className='w-fit flex items-center gap-1 bg-stone-950 py-2 px-5 rounded-lg hover:text-teal-400 transition-colors duration-300'>View Resume <span className='animate-pulse'><BsArrowUpRight/></span></Link>
       </div>
       <Stack/>

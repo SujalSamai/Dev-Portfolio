@@ -41,17 +41,17 @@ const projects = [
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col lg:flex-row leading-relaxed tracking-wider mt-40">
+      <main className="flex flex-col  leading-relaxed tracking-wider mt-40">
         <div className="lg:w-4/12">
-          <h1 className={`reveal-custom text-5xl pr-2 lg:pr-0 lg:text-6xl font-semibold ${dmSans.className} py-16`}>Hello, I&apos;m Sujal Samai.</h1>
+          <h1 className={`reveal-custom text-5xl pr-2 lg:pr-0 lg:text-6xl font-semibold ${dmSans.className} py-12`}>Hello, I&apos;m Sujal Samai.</h1>
         </div>
-        <div className="lg:w-6/12 flex flex-col justify-end items-start mx-auto text-gray-300 text-xl">
-          <p className="reveal-custom-info">A final-year web developer student working on creating beautiful layouts and content for the web</p>
-          
+        <div className="flex text-gray-300 justify-between text-lg">
+          <p className="reveal-custom-info w-6/12">I’m a software engineer specializing in building experiences for the web and handling Backend services for various types of applications. Currently, I’m focused on building accessible, human-centered products at <a href="https://www.digivalet.com/" className="text-teal-300">DigiValet</a>.</p>
+          <HiArrowDown className="w-4/12 h-16 motion-safe:animate-bounce"/>
         </div>
       </main>
-        <Link href={"/resume"} className='reveal-custom-info w-fit flex items-center gap-1 bg-stone-950 py-2 px-5 rounded-lg hover:text-teal-400 transition-colors duration-300 mt-12 md:mt-0'>View Resume <span className='animate-pulse'><BsArrowUpRight/></span></Link>
-      <div className="mt-28 lg:mt-20 flex justify-end lg:justify-start">
+        <Link href={"/resume"} className='reveal-custom-info w-fit flex items-center gap-1 bg-stone-950 py-2 px-5 rounded-lg hover:text-teal-400 transition-colors duration-300 mt-12 md:mt-10'>View Resume <span className='animate-pulse'><BsArrowUpRight/></span></Link>
+      <div className="mt-28 lg:mt-20 flex justify-end lg:justify-end md:hidden">
           <HiArrowDown className="w-16 h-16 motion-safe:animate-bounce"/>
       </div>
       <Services/>
