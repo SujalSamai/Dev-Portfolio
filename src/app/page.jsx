@@ -46,8 +46,8 @@ export default function Home() {
           <h1 className={`reveal-custom text-5xl pr-2 lg:pr-0 lg:text-6xl font-semibold ${dmSans.className} py-12`}>Hello, I&apos;m Sujal Samai.</h1>
         </div>
         <div className="flex text-gray-300 justify-between text-lg">
-          <p className="reveal-custom-info w-6/12">I’m a software engineer specializing in building experiences for the web and handling Backend services for various types of applications. Currently, I’m focused on building accessible, human-centered products at <a href="https://www.digivalet.com/" className="text-teal-300">DigiValet</a>.</p>
-          <HiArrowDown className="w-4/12 h-16 motion-safe:animate-bounce"/>
+          <p className="reveal-custom-info lg:w-6/12">I’m a software engineer specializing in building experiences for the web and handling Backend services for various types of applications. Currently, I’m focused on building accessible, human-centered products at <a href="https://www.digivalet.com/" className="text-teal-300">DigiValet</a>.</p>
+          <HiArrowDown className="w-4/12 h-16 motion-safe:animate-bounce hidden lg:block"/>
         </div>
       </main>
         <Link href={"/resume"} className='reveal-custom-info w-fit flex items-center gap-1 bg-stone-950 py-2 px-5 rounded-lg hover:text-teal-400 transition-colors duration-300 mt-12 md:mt-10'>View Resume <span className='animate-pulse'><BsArrowUpRight/></span></Link>
