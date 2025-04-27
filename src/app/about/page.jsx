@@ -13,9 +13,8 @@ const About = () => {
       <div className='flex flex-col lg:flex-row justify-between'>
         <div className='lg:w-5/12 tracking-wider'>
           <h1 className={`reveal-custom text-5xl font-semibold ${dmSans.className} py-16`}>Hi I&apos;m Sujal Samai, web & backend developer. </h1>
-          <p className='reveal-custom-info text-slate-300 text-justify'>I&apos;m a Web Developer who likes to design beautiful websites primarily using Next/React.js and Tailwind CSS.
-          Currently, I&apos;m focussing on improving my Frontend logics and also in the process to learn Backend Technologies.<br/><br/>
-          I&apos;m constantly trying to challenge myself with new things and hoping to network with amazing developers all around the internet and learn from them.
+          <p className='reveal-custom-info text-slate-300 text-justify'>I&apos;m a passionate Software Engineer skilled in Java, Spring Boot, JavaScript, and modern web development frameworks like React.js and Next.js. I have professional experience optimizing microservices, building real-time communication systems, and developing scalable full-stack applications. <br/><br/>
+          I enjoy solving complex problems, building intuitive user experiences, and continuously expanding my skill set. I’m driven by a love for technology, a commitment to innovation, and a belief in balancing career growth with a positive, collaborative work environment.
           </p>
         </div>
         <div className='lg:w-5/12 lg:p-10 mt-8 lg:mt-0'>

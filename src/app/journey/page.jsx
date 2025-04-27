@@ -11,10 +11,16 @@ import { HiUserGroup } from 'react-icons/hi'
 
 const journeys= [
   {
+    id:13,
+    name:"Software Engineer at Digivalet",
+    desc:"Working as a Software Engineer at Digivalet where my core responsibility lies in creating scalable and bug free, production ready Backend Service and Drivers for Digivalet Controllers.",
+    date:"July, 2024 - Present"
+  },
+  {
     id:12,
     name:"Software Engineer Intern at Digivalet",
-    desc:"Working as a Software Engineer Intern at Digivalet where my core responsibility lies in creating scalable and bug free, production ready Backend Service and Drivers for Digivalet Controllers.",
-    date:"January, 2024 - Present"
+    desc:"Worked as a Software Engineer Intern at Digivalet, learning and exploring Java backend and microservices architecture with meaningful contributions.",
+    date:"January, 2024 - June, 2024"
   },
   {
     id:11,

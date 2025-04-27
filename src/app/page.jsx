@@ -21,7 +21,7 @@ const projects = [
   {
     id:2,
     name: "GitShow",
-    desc: "A Social-Media platform based on Github, whose main focus is to give you a platform your Github projects in a beautiful way, so that you can focus on the project and we can focus on taking it to the masses.",
+    desc: "A Social-Media platform based on Github, whose main focu s is to give you a platform your Github projects in a beautiful way, so that you can focus on the project and we can focus on taking it to the masses.",
     tech:"UI created using React.js & Tailwind CSS. Makes use of Firebase Authentication & Firestore at the backend with extensive use of GitHub API.",
     img:gitshow,
     github:"https://github.com/MadhaviGupta/GitShow",
