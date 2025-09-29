@@ -35,7 +35,7 @@ const socials = [
   {
     id:6,
     name:"Resume",
-    url:"sujalsamai.co/resume",
+    url:"sujalsamai.vercel.app/resume",
     link:"/resume"
   }
 ]

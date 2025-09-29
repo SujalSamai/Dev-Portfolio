@@ -4,27 +4,34 @@ import ArticleCard from './ArticleCard'
 const articles = [
   {
     id:1,
+    name:"Not Just RESTing: How gRPC Redefines Service Communication",
+    desc:"Explore the key differences between REST and gRPC, including speed, performance, and ideal use cases.",
+    tech:"gRPC, REST APIs",
+    link:"https://sujalsamai.hashnode.dev/not-just-resting-how-grpc-redefines-service-communication",
+  },
+  {
+    id:2,
     name:"Spring Security: A Quick Overview",
     desc:"A quick explanation and hands-on code for learning Spring Security ",
     tech:"SpringBoot, Spring Security",
     link:"https://sujalsamai.hashnode.dev/spring-security-a-quick-overview",
   },
   {
-    id:2,
+    id:3,
     name:"Chat with your PDFs using LangChain",
     desc:"Create a Custom Chatbot using LangChain & Streamlit which reads your PDF file and gives responses based on its content.",
     tech:"LangChain, Streamlit, OpenAI API",
     link:"https://sujalsamai.hashnode.dev/chat-with-your-pdfs-using-langchain",
   },
   {
-    id:3,
+    id:4,
     name:"Get your React Forms Right",
     desc:"How to use React Forms in the right way by using Controlled Components, without using like React Hook Form",
     tech:"React.js",
     link:"https://sujalsamai.hashnode.dev/get-your-react-forms-right#claxc94ta01mztlnvciq87cmy"
   },
   {
-    id:4,
+    id:5,
     name:"Appwrite Community Spotlight: Building VogueEco",
     desc:"Article Featuring the project that helped us win 'Design-a-thon' conducted by MLH. ",
     tech:"React.js, Appwrite",

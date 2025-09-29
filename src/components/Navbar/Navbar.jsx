@@ -73,7 +73,7 @@ const Navbar = () => {
               return <motion.div initial={{y:-25 ,opacity:0}} animate={{y:0, opacity:100}} transition={{duration:0.5}} key={link.id}><Link href={link.url} onClick={closeMenu} className='py-1 w-10/12 mx-auto text-3xl'>{link.title}</Link></motion.div>
             })}
             <hr className='mt-28 w-8/12 mx-auto'/>
-            <h3 className='text-normal mt-4'>Sujal Samai - 2023.</h3>
+            <h3 className='text-normal mt-4'>Sujal Samai - 2025.</h3>
           </motion.div>
         )
       }
